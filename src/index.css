@@ -8,6 +8,10 @@ body {
   background-size: cover;
 }
 
+.button{
+  font-family: 'Lobster Two', cursive ;
+}
+
 .App {
   text-align: center;
 }

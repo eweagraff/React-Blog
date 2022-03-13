@@ -9,12 +9,17 @@ const [blogs, setBlogs] = useState([
 
 ]);
 
+const handleDelete = (id) => {
+    const newBlogs = blogs.filter(blog => blog.id !== id);
+    setBlogs(newBlogs)
+}
+
 
        
 
     return (  
         <div className="home">
-           <Bloglist blogs={blogs} title="Blog Titles" />
+           <Bloglist blogs={blogs} title="Blog Titles" handleDelete={handleDelete}/>
            
         </div>
     )};
