@@ -1,6 +1,7 @@
 const Bloglist = (props) => {
     const blogs = props.blogs;
     const title = props.title;
+    
     const handleDelete = props.handleDelete;
   
     
@@ -9,12 +10,9 @@ const Bloglist = (props) => {
             <h1>{title}</h1>
              {blogs.map((blog) => (
                 <div className="blog-preview" key={blog.id}>
-                <h2>
-                    {blog.title}
-                </h2>
-                <h3>Written by: {blog.author} </h3>
-                <p>{blog.body} </p>
-                <button className="button" onClick={() => handleDelete(blog.id)}>Delete Blog</button>
+                <h2>{blog.body} </h2>
+                <p>Written by: {blog.author} </p>
+                <button className="button" onClick={() => handleDelete(blog.id)}>Delete Tip</button>
                 
 
                 </div>

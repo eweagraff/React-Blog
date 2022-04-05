@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (  
         <nav className="navbar">
-            <h1>Gardening 101 </h1>
+            <h1>Gardening Tips </h1>
             <div className="links">
                 <a href="/" style={{
                     color: "white",
@@ -12,7 +12,7 @@ const Navbar = () => {
                     color: "white",
                     backgroundColor: "teal",
                     borderRadius: "8px"
-                }}>New Post</a>
+                }}>New Tip</a>
             </div>
         </nav>
     );
