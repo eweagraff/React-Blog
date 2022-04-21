@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "Shop your neighborhood’s streets",
+            "body": "Rachana Pathak, who lives in a Brooklyn apartment with over 300 plants, says one of her favorite “hacks” is simply looking out for street finds in her neighborhood. “People discard perfectly usable things all the time. I’ve found vintage terra cotta pots, plant stands, ceramics, and more. It’s the best way to recycle. I propagate a lot and it’s always nicer when I give a friend a plant in a recycled pot.",
+            "author": "Rachana Pathak",
+            "id": 1
+        },
+        {
+            "title": "Choose the right soil.",
+            "body": "Gabriel and Victor, who take care of plants in their Buenos Aires home and at Planta, their plant and housewares shop,  explain that one of the first things to remember is to plant your new plant baby into the substrate/soil that it requires. “This way we strengthen their roots and avoid pests and diseases,” they explain. And when it comes to strengthening your plants, don’t necessarily go straight to fertilizers you buy. “Instead, try some homemade recipes like banana-peel tea, which can be effective and have no side effects",
+            "author": "Gabriel and Victor",
+            "id": 2
+        }
+    ]
+}

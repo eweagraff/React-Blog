@@ -1,18 +1,20 @@
+import {Link} from 'react-router-dom'
+
 const Navbar = () => {
     return (  
         <nav className="navbar">
-            <h1>Gardening Tips </h1>
+            <h1>Plant Tips and Tricks </h1>
             <div className="links">
-                <a href="/" style={{
+                <Link to="/" style={{
                     color: "white",
                     backgroundColor: "teal",
                     borderRadius: "8px"
-                }}>Home</a>
-                <a href="/create" style={{
+                }}>Home</Link>
+                <Link to="/create" style={{
                     color: "white",
                     backgroundColor: "teal",
                     borderRadius: "8px"
-                }}>New Tip</a>
+                }}>New Tip</Link>
             </div>
         </nav>
     );
