@@ -18,9 +18,7 @@ const BlogDetails = () => {
         })
     };
 
-   
-  
-    return (  
+   return (  
         <div className="blog-details">
             {error && <div> {error}</div>}
             {blog && (
